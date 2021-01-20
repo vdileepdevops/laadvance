@@ -177,23 +177,6 @@ label {
 	display: inline-block;
 margin-bottom:.5rem
 }
-.modal-contentcb {
-	padding: 0 !important;
-	position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border-radius: 0rem !important;
-    border: none;
-	outline: 0;
-	min-height: 100vh !important;
-
-}
 button {
 	border-radius: 0
 }
@@ -1566,19 +1549,19 @@ padding:.3rem
 
 
 .form-control {
-	display: block;
-	width: 100%;
-height:calc(1.5em + .75rem + 2px);
-padding:.375rem .75rem;
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #495057;
-	background-color: #fff;
-	background-clip: padding-box;
-	border: 1px solid #ced4da;
-border-radius:.25rem;
-	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #929aa2;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 @media (prefers-reduced-motion:reduce) {
 .form-control {
